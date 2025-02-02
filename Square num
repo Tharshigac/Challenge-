@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+public class Main
+{
+    static void SquareNumber(int n,int m)
+    {
+        int x=0;
+        for(int i=0;i<m;i++){
+        x=i*i;
+        if(n<=x && m>=x)
+        {
+            System.out.print(x+" ");
+        }
+        } 
+      
+        
+    }
+	public static void main(String[] args) 
+	{
+	    Scanner s=new Scanner(System.in);
+	    int n=s.nextInt();
+	    int m=s.nextInt();
+		SquareNumber(n,m);
+	}
+}
